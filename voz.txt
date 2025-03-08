@@ -1,0 +1,4 @@
+curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{"id": 0, "name": "João"}'
+
+
+curl http://localhost:8000/people
